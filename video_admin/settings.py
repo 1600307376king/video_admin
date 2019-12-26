@@ -126,11 +126,11 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # 设置静态文件路径
-STATIC_FILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_FILES_DIRS = os.path.join(BASE_DIR, 'static')
 
-# 设置文件上传路径， 图片上传、文件上传目录
+# 设置文件上传路径， 图片上传、文件上传目录 注意不能加[], 否则会报错
 MEDIA_URL = '/media/'
-MEDIA_ROOT = [os.path.join(BASE_DIR, 'media')]
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 

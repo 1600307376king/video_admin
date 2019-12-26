@@ -1,0 +1,85 @@
+.loginForm {
+    width: 500px;
+    height: 300px;
+    /*background: #333333;*/
+    margin: 100px auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.75);
+}
+
+.loginForm span {
+    width: 50px;
+    height: 34px;
+    margin: 10px;
+
+}
+
+.nameLine {
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 60px;
+
+}
+
+.adminName {
+    width: 250px;
+    height: 34px;
+    background: #333333;
+    border-radius: 2px;
+    padding-left: 10px;
+    color: white;
+}
+
+.passwordLine {
+    width: 90%;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.adminPassword {
+    width: 250px;
+    height: 34px;
+    background: #333333;
+    border-radius: 2px;
+    margin: 10px auto;
+    padding-left: 10px;
+    color: white;
+}
+
+.buttonLine{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+}
+.loginButton {
+    width: 262px;
+    height: 34px;
+    background: #0194C8;
+    border-radius: 2px;
+    border: 1px solid #BBBBBB;
+    margin: 10px auto;
+    color: white;
+}
+
+.tipLine {
+    font-size: 14px;
+}
+
+.rememberMe {
+    margin-right: 20px;
+}
+
+.forgetPassword {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.forgetPassword:hover {
+    color: dodgerblue;
+}

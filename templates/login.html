@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/static/css/adminLogin.css">
+    <link href="/static/css/bg.css">
+</head>
+<body>
+    <div class="totalBackground" id="main">
+
+        <div class="topNav">
+            {% load static %}
+            <img src="{% static "web_bg.png"%}" alt="图片加载失败"/>
+        </div>
+        <div class="loginForm">
+            <h3>Administrator Sign In</h3>
+            <div class="nameLine">
+                <input type="text" class="adminName" name="admin_name" placeholder="UserName"/>
+            </div>
+            <div class="passwordLine">
+                <input type="password" class="adminPassword" name="admin_password" placeholder="Password"/>
+            </div>
+            <div class="buttonLine">
+                <input class="loginButton" type="button" value="Sign In"/>
+            </div>
+            <div class="tipLine">
+                <input type="checkbox"/>
+                <span class="rememberMe">Remember me</span>
+                <a href="https://www.baidu.com" class="forgetPassword">Forget password?</a>
+            </div>
+        </div>
+        <div class="footerNav">
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
